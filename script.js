@@ -29,4 +29,6 @@ $(document).ready(function() {
     $(function() {
         window.onresize();
     });
+
+    $('select').material_select();
 });
