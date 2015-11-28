@@ -4,8 +4,14 @@
 .divider {
     margin-top: 2%;
 }
+.navbar-fixed {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
 .btn-large {
     margin-top: 1%;
+}
+.btn-large i {
+    font-size: 2.2rem;
 }
 .btn-group-size {
     width: 100%;
