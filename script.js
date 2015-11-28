@@ -15,8 +15,9 @@ $(document).ready(function() {
     }
 
     fullscreen();
-    
-/*    document.body.addEventListener('touchmove', function(event) {
+
+/*
+    document.body.addEventListener('touchmove', function(event) {
         console.log(event.source);
         //if (event.source == document.body)
         event.preventDefault();
@@ -28,7 +29,8 @@ $(document).ready(function() {
 
     $(function() {
         window.onresize();
-    });*/
+    });
+*/
 
     $('select').material_select();
 });
