@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c904c28b-e32a-4385-91cb-3b90c62db6a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pholder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/lang-icon-120.png" afterPath="$PROJECT_DIR$/img/lang-icon-120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="C:\Users\Alexander\Desktop\Studioappen\iosapp\pholder.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logg.html" afterPath="$PROJECT_DIR$/logg.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarion.html" afterPath="$PROJECT_DIR$/scenarion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iosapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,38 +28,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6538463">
-              <caret line="35" column="188" selection-start-line="35" selection-start-column="188" selection-end-line="35" selection-end-column="188" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scenarion.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scenarion.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scenarion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="34" column="195" selection-start-line="34" selection-start-column="195" selection-end-line="34" selection-end-column="195" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pholder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pholder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="34" column="162" selection-start-line="34" selection-start-column="162" selection-end-line="34" selection-end-column="162" />
+            <state vertical-scroll-proportion="0.56666666">
+              <caret line="29" column="145" selection-start-line="29" selection-start-column="145" selection-end-line="29" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -121,10 +106,10 @@
       <list>
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/scenarion.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pholder.html" />
         <option value="$PROJECT_DIR$/logg.html" />
+        <option value="$PROJECT_DIR$/pholder.html" />
+        <option value="$PROJECT_DIR$/scenarion.html" />
       </list>
     </option>
   </component>
@@ -329,6 +314,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -337,34 +330,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pholder.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="34" column="162" selection-start-line="34" selection-start-column="162" selection-end-line="34" selection-end-column="162" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scenarion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="34" column="195" selection-start-line="34" selection-start-column="195" selection-end-line="34" selection-end-column="195" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6538463">
-          <caret line="35" column="188" selection-start-line="35" selection-start-column="188" selection-end-line="35" selection-end-column="188" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56666666">
+          <caret line="29" column="145" selection-start-line="29" selection-start-column="145" selection-end-line="29" selection-end-column="145" />
           <folding />
         </state>
       </provider>
