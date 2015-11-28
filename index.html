@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" href="img/lang-icon-120.png">
@@ -40,8 +40,33 @@
             <div class="grid-example col s12 l6">
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                        <div class="collapsible-header"><i class="material-icons">note_add</i>Nytt logginlägg</div>
+                        <div class="collapsible-body">
+                            <div class="container">
+                                <div class="input-field col s12" style="margin-top: 15%;">
+                                    <select>
+                                        <option value="" disabled selected>Välj tema för logginlägget</option>
+                                        <option value="1"><em>Övrigt</em></option>
+                                        <option value="1">Medicinering</option>
+                                        <option value="2">Missförstånd</option>
+                                        <option value="2">Rutiner</option>
+                                        <option value="3">Hushållssysslor</option>
+                                    </select>
+                                    <label>Inläggskategori</label>
+                                </div>
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">mode_edit</i>
+                                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                                <label for="icon_prefix2">Nytt logginlägg (2015-12-02)</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
