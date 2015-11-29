@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -18,7 +18,7 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper blue-grey darken-3">
-            <a href="#!" class="brand-logo center">KlarSpråk</a>
+            <a href="#!" class="brand-logo center">KlarSpråk</a><div class="header-logo"><img src="img/lang-icon-120-bluegrey-square.png"></div>
             <ul class="right hide-on-med-and-down">
             </ul>
         </div>
@@ -41,21 +41,21 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">mode_edit</i>
-                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <textarea id="icon_prefix2" class="materialize-textarea" placeholder="Tryck här för att börja skriva..."></textarea>
                         <label for="icon_prefix2">Nytt logginlägg (2015-12-02)</label>
                     </div>
                 </div>
             </form>
         </div>
         <div class="valign-wrapper">
-            <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" onclick="Materialize.toast('Logginlägg sparades', 3000)" href="#!"><i class="material-icons right">done</i>Spara</a></div>
+            <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" onclick="Materialize.toast('Logginlägget har sparats!', 3000)" href="#!"><i class="material-icons right">done</i>Spara</a></div>
         </div>
     </div>
 </main>
 
 <div class="divider"></div>
 <div class="row">
-<div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1" href="logg.html"><i class="material-icons left">arrow_back</i>Tillbaka</a></div>
+<div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="logg.html"><i class="material-icons  md-dark left">arrow_back</i>Tillbaka</a></div>
 </div>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
