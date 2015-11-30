@@ -105,7 +105,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
     white-space: nowrap;
     padding: 20px;
     background: #bdbdbd;
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 0px;
 }
 .smallerDivs {
     height: 15vw;
