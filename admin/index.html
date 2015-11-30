@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="img/lang-icon-120-bluegrey-square.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link href="img/splash2.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <title>KlarSpråk</title>
+</head>
+
+<body class="brown lighten-3">
+
+<header>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue-grey darken-3">
+                    <a href="#!" class="brand-logo center">KlarSpråk</a><div class="header-logo"><img src="img/lang-icon-120-bluegrey-square.png"></div>
+                <ul class="right hide-on-med-and-down">
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="valign-wrapper">
+        <div class="container valign">
+            <div class="row">
+                <div class="grid-example col s12" style="margin-top:10%;margin-bottom:3%;"><a class="waves-effect waves-light btn-large btn-group-size deep-orange lighten-1" href="scenarion.html"><i class="material-icons right">chevron_right</i><i class="material-icons right">school</i>Granska svar</a></div>
+                <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size deep-orange lighten-1" href="logg.html"><i class="material-icons right">chevron_right</i><i class="material-icons right">description</i>logg</a></div>
+            </div>
+            <div class="divider"></div>
+            <div class="grid-example col s12">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">note_add</i>Nytt logginlägg<i class="material-icons right">arrow_drop_down</i></div>
+                        <div class="collapsible-body">
+                            <div class="container">
+                                <div class="input-field col s12" style="margin-top: 15%;">
+                                    <select>
+                                        <option value="" disabled selected>Välj tema för logginlägget</option>
+                                        <option value="1"><em>Övrigt</em></option>
+                                        <option value="1">Medicinering</option>
+                                        <option value="2">Missförstånd</option>
+                                        <option value="2">Rutiner</option>
+                                        <option value="3">Hushållssysslor</option>
+                                    </select>
+                                    <label>Inläggskategori</label>
+                                </div>
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">mode_edit</i>
+                                                <textarea id="icon_prefix2" class="materialize-textarea" placeholder="Tryck här för att börja skriva..."></textarea>
+                                                <label for="icon_prefix2">Nytt logginlägg (2015-12-02)</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="valign-wrapper">
+                                    <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="#!" onclick="Materialize.toast('Logginlägget har sparats!', 3000)"><i class="material-icons right">done</i>Spara</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-copyright">
+        <div class="container center-align">
+            © 2015
+        </div>
+    </div>
+</footer>
+
+<div class="page-bg"></div>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
