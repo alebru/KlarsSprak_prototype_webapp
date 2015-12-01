@@ -225,3 +225,7 @@ footer {
 #switchbutton {
     margin-left: -20px;
 }
+
+.select-wrapper input.select-dropdown {
+    color: #ff7043;
+}
