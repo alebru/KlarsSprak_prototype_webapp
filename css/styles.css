@@ -122,10 +122,11 @@ textarea.materialize-textarea:focus:not([readonly]) {
     margin-top: -3vw;
     display: inline-block;
     vertical-align: middle;
-    background: #E65A50;
+    background: #ff9800;
     text-align: center;
     font-size: 6vw;
     padding: 3vw;
+    color: white;
 }
 
 .smallerDivs {
@@ -136,17 +137,18 @@ textarea.materialize-textarea:focus:not([readonly]) {
     margin-bottom: 6vw;
     display: inline-block;
     vertical-align: middle;
-    background: #E65A50;
+    background: #ff9800;
     text-align: center;
     font-size: 6vw;
     padding: 3vw;
+    color: white;
 }
 
 .scenario-bottom-div {
     margin-left: 15.5%;
 }
 .done {
-    background: #66bb6a;
+    background-color: #c0ca33;
 }
 .arrow-left {
     position: absolute;
@@ -220,9 +222,6 @@ footer {
 
 .switch {
     display: inline-block;
-}
-
-#switchbutton {
     margin-left: -20px;
 }
 
