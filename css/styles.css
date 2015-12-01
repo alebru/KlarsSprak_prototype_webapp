@@ -202,6 +202,6 @@ footer {
 }
 
 .switch {
-    margin-top: -50px;
-    margin-left: 220px;
+    display: inline-block;
+    margin-left: -20px;
 }
