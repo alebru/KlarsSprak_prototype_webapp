@@ -1,6 +1,6 @@
 .ui-segment{
 	color:#ff8a65;
-	border: 1px solid #ff8a65;
+	border: 2px solid #4e4e4e;
 	border-radius: 4px;
 	display:inline-block;
 	font-family: 'Roboto',Georgia, Serif;
@@ -20,7 +20,7 @@
 	margin: 0px;
 	float:left;
 	cursor:pointer;
-	border-right:1px solid #ff8a65;
+	border-right:1px solid #4e4e4e;
 	background-color:#ffffff;
 }
 .ui-segment span.option:last-child{
