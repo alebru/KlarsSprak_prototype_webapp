@@ -220,5 +220,8 @@ footer {
 
 .switch {
     display: inline-block;
+}
 
+#switchbutton {
+    margin-left: -20px;
 }
