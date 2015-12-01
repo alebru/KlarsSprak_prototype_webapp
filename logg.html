@@ -12,6 +12,8 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <!--Import segment.css till segmented controller-->
+    <link rel="stylesheet" href="css/segment.css">
     <title>KlarSpråk</title>
 </head>
 <body class="brown lighten-3">
@@ -29,6 +31,12 @@
     <div class="row">
         <div class="grid-example col s12 white-text center-align"><i class="material-icons left" style="position:absolute;left:0px">description</i><h4>LOGG</h4></div>
     </div>
+    <!--Segmented controller-->
+    <select class="segment-select">
+        <option value="1">Mina</option>
+        <option value="2">Allas</option>
+    </select>
+
     <ul class="collection">
 
         <a href="loggtext.html"><li class="collection-item">
@@ -46,7 +54,7 @@
         </li>
         <li class="collection-item">
             <span class="title">2015-10-01: Dusch och religion</span>
-            <p>en brukare tackade nej för att han inte kunde bli duschad av kvinnor...<br>
+            <p>en brukare tackade nej för att han inte <br> kunde bli duschad av kvinnor...
             </p>
             <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
         </li>
@@ -63,5 +71,8 @@
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<!--jQuery för segmented controller-->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bower_components/jquery/src/segment.js"></script>
 </body>
 </html>
