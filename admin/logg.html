@@ -12,6 +12,9 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <!--Import segment.css till segmented controller-->
+    <link rel="stylesheet" href="css/segment.css">
+    <style type="text/css"></style>
     <title>KlarSpråk</title>
 </head>
 <body class="brown lighten-3">
@@ -29,28 +32,32 @@
     <div class="row">
         <div class="grid-example col s12 white-text center-align"><i class="material-icons left" style="position:absolute;left:0px">description</i><h4>LOGG</h4></div>
     </div>
+
+    <!--Segmented controller-->
+    <div class="center">
+            <div class="ui-segment">
+                <span class="option active">Mina</span>
+                <a href="allas-loggar.html"><span class="option">Allas</span></a>
+            </div>
+    </div>
+
     <ul class="collection">
 
-        <a href="loggtext.html"><li class="collection-item avatar">
-
-            <!--<i class="material-info_outline">description</i>-->
+        <a href="loggtext.html"><li class="collection-item">
             <span class="title">2015-12-01: Hembesök hos A</span>
-            <class="right-align"><i class="material-icons">public</i>
             <p>Under det senaste hembesöket hos A frågade han efter kroppkaka.. <br>
             </p>
-            <a class="secondary-content"><i></i></a>
-        </li></a>
-        <li class="collection-item avatar">
-            <!--<i class="material-icons circle">description</i>-->
-            <span class="title">2015-11-01: Titel</span>
-            <p>Första raden..<br>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></li>
+        <li class="collection-item">
+            <span class="title">2015-11-01: macka</span>
+            <p>macka betyder smörgås<br>
             </p>
-        </li>
-        <li class="collection-item avatar">
-            <!--<i class="material-icons circle">description</i>-->
-            <span class="title">2015-10-01: Titel</span>
-            <p>Första raden..<br>
+            <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></li>
+        <li class="collection-item">
+            <span class="title">2015-10-01: Dusch och religion</span>
+            <p>en brukare tackade nej för att han inte <br> kunde bli duschad av kvinnor...
             </p>
+            <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
         </li>
     </ul>
 <div class="row">
@@ -62,8 +69,47 @@
 <div class=""row">
 <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="index.html"><i class="material-icons md-dark left">arrow_back</i>Tillbaka</a></div>
 </div>
+
+<script type="text/javascript">
+    window.onload= function(){
+    var total = sessionStorage.getItem("value");
+    if (total) {
+        Materialize.toast('Logginlägget har sparats!', 4000)
+        sessionStorage.removeItem("value");
+    }};
+</script>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+
+<!--jQuery för segmented controller
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bower_components/jquery/src/segment.js"></script>
+
+
+<script type="text/javascript">
+    jQuery(function ($){
+        $(".segment-select").Segment();
+    });
+</script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+-->
+
+
 </body>
 </html>

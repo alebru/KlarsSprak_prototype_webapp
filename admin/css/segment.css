@@ -1,0 +1,36 @@
+.ui-segment{
+	color:#ff8a65;
+	border: 1px solid #ff8a65;
+	border-radius: 4px;
+	display:inline-block;
+	font-family: 'Roboto',Georgia, Serif;
+}
+.ui-segment span.option.active{
+	background-color:#ff8a65;
+	color: white;
+}
+.ui-segment span.option{
+	font-size: 13px;
+	padding-left: 23px;
+	padding-right: 23px;
+	height: 25px;
+	text-align:center;
+	display:inline-block;
+	line-height: 25px;
+	margin: 0px;
+	float:left;
+	cursor:pointer;
+	border-right:1px solid #ff8a65;
+	background-color:#ffffff;
+}
+.ui-segment span.option:last-child{
+	border-right: none;
+}
+.segment-select{
+	display:none;
+}
+
+.center {
+	margin: auto;
+	width: 60%;
+}

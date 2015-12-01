@@ -48,15 +48,32 @@
             </form>
         </div>
         <div class="valign-wrapper">
-            <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" onclick="Materialize.toast('Logginlägget har sparats!', 3000)" href="#!"><i class="material-icons right">done</i>Spara</a></div>
+
+            <div class="card-content">
+
+                <div class="card-action">
+                    Dela
+
+                    <div class="switch">
+                        <input id="exampleCheckboxSwitch" type="checkbox">
+                        <label for="exampleCheckboxSwitch"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-example col s12 valign center-block btm-margin">
+                <input type=button class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" onclick="sessionStorage.setItem('value', ['a']);location.href='logg.html'" value="Spara">
+            </div>
+
+
         </div>
-    </div>
 </main>
 
 <div class="divider"></div>
+
 <div class="row">
-<div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="logg.html"><i class="material-icons  md-dark left">arrow_back</i>Tillbaka</a></div>
+        <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1" href="logg.html"><i class="material-icons left">arrow_back</i>Tillbaka</a></div>
 </div>
+
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
