@@ -78,7 +78,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
      color: #f5f5f5;
  }*/
 .card .card-action a {
-     color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.65);
 }
 .card .card-action a:hover {
     color: #000;
@@ -105,14 +105,16 @@ textarea.materialize-textarea:focus:not([readonly]) {
     background: #bcaaa4;
 }
 
-#line1, #line2, #line3 {
+#line1, #line2 {
     overflow-x: auto;
     white-space: nowrap;
-    padding: 20px;
+    padding: 15px;
+    padding-top: 10px;
     background: #bdbdbd;
     margin-left: 30px;
     margin-right: 0px;
 }
+
 .smallerDivs1 {
     height: 15vw;
     width: 15vw;
@@ -120,7 +122,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
     margin-top: -3vw;
     display: inline-block;
     vertical-align: middle;
-    background: #ff9800;
+    background: #c0ca33;
     text-align: center;
     font-size: 6vw;
     padding: 3vw;
@@ -135,7 +137,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
     margin-bottom: 6vw;
     display: inline-block;
     vertical-align: middle;
-    background: #ff9800;
+    background: #c0ca33;
     text-align: center;
     font-size: 6vw;
     padding: 3vw;
@@ -178,8 +180,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
     margin-top: 15%;
 }
 h4 {
-     margin-bottom: -1%;
- }
+    margin-bottom: -1%;
+}
 h5 {
     margin-bottom: -1%;
 }
@@ -216,4 +218,16 @@ footer {
 .secondary-content {
     margin-top: -50px;
 
+}
+
+.switch {
+    display: inline-block;
+}
+
+#switchbutton {
+    margin-left: -20px;
+}
+
+.select-wrapper input.select-dropdown {
+    color: #ff7043;
 }
