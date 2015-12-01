@@ -105,18 +105,35 @@ textarea.materialize-textarea:focus:not([readonly]) {
     background: #bcaaa4;
 }
 
-#line1, #line2, #line3 {
+#line1, #line2 {
     overflow-x: auto;
     white-space: nowrap;
-    padding: 20px;
+    padding: 15px;
+    padding-top: 10px;
     background: #bdbdbd;
     margin-left: 30px;
     margin-right: 0px;
 }
+
+.smallerDivs1 {
+    height: 15vw;
+    width: 15vw;
+    margin: 1.5vw;
+    margin-top: -3vw;
+    display: inline-block;
+    vertical-align: middle;
+    background: #E65A50;
+    text-align: center;
+    font-size: 6vw;
+    padding: 3vw;
+}
+
 .smallerDivs {
     height: 15vw;
     width: 15vw;
     margin: 1.5vw;
+    margin-top: -4%;
+    margin-bottom: 6vw;
     display: inline-block;
     vertical-align: middle;
     background: #E65A50;
