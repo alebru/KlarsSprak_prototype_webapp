@@ -228,6 +228,10 @@ footer {
     margin-left: -20px;
 }
 
+.log-options {
+    font-size: 70%;
+}
+
 .select-wrapper input.select-dropdown {
     color: #ff7043;
 }
