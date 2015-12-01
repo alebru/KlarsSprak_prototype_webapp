@@ -12,6 +12,8 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <!--Import segment.css till segmented controller-->
+    <link rel="stylesheet" href="css/segment.css">
     <title>KlarSpråk</title>
 </head>
 <body class="brown lighten-3">
@@ -29,6 +31,16 @@
     <div class="row">
         <div class="grid-example col s12 white-text center-align"><i class="material-icons left" style="position:absolute;left:0px">description</i><h4>LOGG</h4></div>
     </div>
+    <!--Segmented controller-->
+    <div class="center">
+
+            <select class="segment-select">
+                <option value="1">Mina</option>
+                <option value="2">Allas</option>
+            </select>
+            <div class="ui-segment"><span class="option active" value="1">Mina</span><span class="option" href="nylogg.html" value="0">Allas</span></div>
+    </div>
+
     <ul class="collection">
 
         <a href="loggtext.html"><li class="collection-item">
@@ -37,13 +49,13 @@
             </p>
             <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></li>
         <li class="collection-item">
-            <span class="title">2015-11-01: Titel</span>
-            <p>Första raden..<br>
+            <span class="title">2015-11-01: macka</span>
+            <p>macka betyder smörgås<br>
             </p>
             <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></li>
         <li class="collection-item">
-            <span class="title">2015-10-01: Titel</span>
-            <p>Första raden..<br>
+            <span class="title">2015-10-01: Dusch och religion</span>
+            <p>en brukare tackade nej för att han inte <br> kunde bli duschad av kvinnor...
             </p>
             <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
         </li>
@@ -60,5 +72,28 @@
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<!--jQuery för segmented controller
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bower_components/jquery/src/segment.js"></script>-->
+
+<script type="text/javascript">
+    jQuery(function ($){
+        $(".segment-select").Segment();
+    });
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
 </body>
 </html>
