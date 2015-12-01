@@ -46,9 +46,9 @@ main {
 .btm-margin {
     margin-bottom: 5%;
 }
-.btn-scnrio {
-    background-color: #E65A50;
-    color: #f5f5f5;
+.card .btn-scnrio {
+    background-color: #ff9800;
+    color: white !important;
 }
 
 .collapsible {
