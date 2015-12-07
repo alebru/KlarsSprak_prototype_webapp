@@ -235,3 +235,7 @@ footer {
 .select-wrapper input.select-dropdown {
     color: #ff7043;
 }
+
+.col .s12 .logg-collapsible {
+    margin-bottom: -5%;
+}
