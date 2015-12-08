@@ -57,11 +57,10 @@
                                         <option value="2">Rutiner</option>
                                         <option value="3">Hushållssysslor</option>
                                     </select>
-                                    <label>Inläggskategori</label>
                                 </div>
                                 <div class="row">
                                     <form class="col s12">
-                                        <div class="row">
+                                        <div class="row logg-collapsible">
                                             <div class="input-field col s12">
                                                 <i class="material-icons prefix">mode_edit</i>
                                                 <textarea id="icon_prefix2" class="materialize-textarea" placeholder="Tryck här för att börja skriva..."></textarea>
@@ -70,19 +69,14 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="valign-wrapper">
-                                    <div class="card-content">
-                                        <div class="card-action right-align">
-                                            Dela
-                                            <div class="switch">
-                                                <input id="exampleCheckboxSwitch" type="checkbox">
-                                                <label for="exampleCheckboxSwitch"></label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="#!" onclick="$('div.collapsible-header.active').click();Materialize.toast('Logginlägget har sparats!', 3000)"><i class="material-icons right">done</i>Spara</a></div>
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="1"><em>Privat</em></option>
+                                        <option value="1">Dela</option>
+                                    </select>
                                 </div>
                             </div>
+                            <div class="grid-example col s12 valign center-block btm-margin"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="#!" onclick="$('div.collapsible-header.active').click();Materialize.toast('Logginlägget har sparats!', 3000)"><i class="material-icons right">done</i>Spara</a></div>
                         </div>
                     </li>
                 </ul>
