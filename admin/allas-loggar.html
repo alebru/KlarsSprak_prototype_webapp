@@ -36,26 +36,33 @@
     <!--Segmented controller-->
     <div class="center">
             <div class="ui-segment">
-                <span class="option active">Mina</span>
-                <a href="allas-loggar.html"><span class="option">Allas</span></a>
+                <a href="logg.html"><span class="option">Mina</span></a>
+                <span class="option active">Allas</span>
             </div>
     </div>
 
     <ul class="collection">
 
         <a href="loggtext.html"><li class="collection-item">
-            <span class="title"><b>2015-12-01: Hembesök hos A</b></span>
-            <p>Under det senaste hembesöket <br> hos A frågade han efter kroppkaka.. <br>
+            <span class="title">2015-12-01: Adventsfika</span>
+            <p>Adventsfika äts fyra söndagar före
+                <br>
+                julafton och.. <br>
             </p>
-            <a href="loggtext.html" class="secondary-content"><i class="material-icons">public</i></a></li>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></div></li>
+
+        </li></a>
         <li class="collection-item">
-            <span class="title"><b>2015-11-01: macka</b></span>
-            <p>macka betyder smörgås<br>
+            <span class="title">2015-11-01: nytt ordspråk</span>
+            <p>En fågel i handen är bättre än tio i...<br>
             </p>
-            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></li>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></div></li>
+        </li>
         <li class="collection-item">
-            <span class="title">2015-10-01: Dusch och religion</span>
-            <p>en brukare tackade nej för att <br>han inte kunde bli duschad av<br>kvinnor...
+            <span class="title">2015-10-01: Om det är svårt att äta</span>
+            <p>Det var lättare för brukaren att äta
+                <br>
+                om jag också...
             </p>
             <a href="#" class="secondary-content"><i class="material-icons">public</i></a></div></li>
         </li>
@@ -63,20 +70,14 @@
 <div class="row">
     <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size deep-orange lighten-1" href="nylogg.html"><i class="material-icons right">note_add</i>Skriv ny logg</a></div>
 </div>
+
+
 <div class="divider"></div>
 <div class="row">
-    <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="index.html"><i class="material-icons  md-dark left">arrow_back</i>Tillbaka</a></div>
+    <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="index.html"><i class="material-icons md-dark left">arrow_back</i>Tillbaka</a></div>
 </div>
 </main>
 
-<script type="text/javascript">
-    window.onload= function(){
-    var total = sessionStorage.getItem("value");
-    if (total) {
-        Materialize.toast('Logginlägget har sparats!', 4000)
-        sessionStorage.removeItem("value");
-    }};
-</script>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>

@@ -6,7 +6,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" href="img/lang-icon-120-bluegrey-square.png">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <!--Import materialize.css-->
@@ -28,50 +28,56 @@
         </div>
     </nav>
 </div>
-<main>
+<main class="container">
     <div class="row">
         <div class="grid-example col s12 white-text center-align"><i class="material-icons left" style="position:absolute;left:0px">description</i><h4>LOGG</h4></div>
     </div>
 
     <!--Segmented controller-->
     <div class="center">
-            <div class="ui-segment">
-                <span class="option" href="logg.html">Mina</span>
-                <span class="option active">Allas</span>
-            </div>
+        <div class="ui-segment">
+            <a href="logg.html"><span class="option">Mina</span></a>
+            <span class="option active">Allas</span>
+        </div>
     </div>
 
     <ul class="collection">
 
         <a href="loggtext.html"><li class="collection-item">
-            <span class="title">2015-12-01: Adventsfika</span>
-            <p>Adventsfika äts fyra söndagar före julafton och.. <br>
+            <span class="title"><b>2015-12-01: Adventsfika</b></span>
+            <p>Adventsfika äts fyra söndagar före
+                <br>
+                julafton och.. <br>
             </p>
-            <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></li>
 
-        </li></a>
+            </li></a>
         <li class="collection-item">
-            <span class="title">2015-11-01: nytt ordspråk</span>
+            <span class="title"><b>2015-11-01: nytt ordspråk</b></span>
             <p>En fågel i handen är bättre än tio i...<br>
             </p>
-            <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></li>
         </li>
         <li class="collection-item">
-            <span class="title">2015-10-01: Om det är svårt att äta</span>
-            <p>Det var lättare för brukaren att äta om jag också...
+            <span class="title"><b>2015-10-01: Om det är svårt att äta</b></span>
+            <p>Det var lättare för brukaren att äta
+                <br>
+                om jag också...
             </p>
-            <a href="scenario.html" class="secondary-content"><i class="material-icons">public</i></a></div></li>
+            <a href="#" class="secondary-content"><i class="material-icons">public</i></a></li>
         </li>
     </ul>
+    <div class="row">
+        <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size deep-orange lighten-1" href="nylogg.html"><i class="material-icons right">note_add</i>Skriv ny logg</a></div>
+    </div>
+
+
+<div class="divider"></div>
 <div class="row">
-    <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size deep-orange lighten-1" href="nylogg.html"><i class="material-icons right">note_add</i>Skriv ny logg</a></div>
+    <div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="index.html"><i class="material-icons md-dark left">arrow_back</i>Tillbaka</a></div>
 </div>
 </main>
-</div>
-<div class="divider"></div>
-<div class=""row">
-<div class="grid-example col s12"><a class="waves-effect waves-light btn-large btn-group-size grey lighten-1 black-text" href="index.html"><i class="material-icons md-dark left">arrow_back</i>Tillbaka</a></div>
-</div>
+
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
